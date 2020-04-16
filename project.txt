@@ -1,0 +1,18 @@
+[ ] 4 different .html pages
+[ ] possible to get from any page on the website to any other page by using links
+[ ] contains at least one list
+[ ] contains at least one table
+[ ] contains at least one image
+[ ] must have at least one stylesheet file
+[ ] stylesheet must have at least 5 different css properties
+[ ] stylesheet must have at least 5 different css selectors
+[ ] stylesheet must use the id selector at least once
+[ ] stylesheet must use the class selector at least once
+[ ] stylesheet must have at least 1 mobile responsive @media query
+[ ] must use bootstrap 4 on the website
+[ ] must have at least 1 bootstrap component
+[ ] must have at least two bootstrap columns
+[ ] stylesheet must have at least one scss variable
+[ ] stylesheet must have at least one example of scss nesting
+[ ] stylesheet must have at least one use of scss inheritance
+[ ] README.md should include a short descrption of the project (what is inside each file and any other important information)
