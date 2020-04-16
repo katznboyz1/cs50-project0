@@ -1,0 +1,15 @@
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh; }
+
+@media (min-width: 700px) {
+  body {
+    background-image: url("./index.html.background-landscape.jpg"); } }
+@media (max-width: 700px) {
+  body {
+    background-image: url("./index.html-background.portrait.jpg"); } }
+
+/*# sourceMappingURL=all.css.map */
