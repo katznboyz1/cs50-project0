@@ -20,6 +20,7 @@ requirements:
 
 website:
     a fake website about hiring a photographer that uses photos ive taken before to avoid copyright
+    bootstrap 4.3.1
 
 images that are mine:
     dist/utils/index.html.background.portrait.jpg

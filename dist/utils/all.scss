@@ -1,15 +1,25 @@
 $text-foreground-color:black; /*the generic text foreground color*/
+$text-foreground-color-hover:rgba(60, 60, 60, 1); /*the text foreground color for when its being hovered over*/
+$text-background-color-hover:rgba(255, 255, 255, 0.5); /*the text background color when its being hoevered over*/
 $image-cover-background-color:rgba(255, 255, 255, 0.60); /*the slightly transparent color that is used to make images less visible*/
+$header-background-color:rgba(128, 128, 128, 1); /*the background color for the page header*/
 @font-face{font-family:__local__roboto__light;src:url('./roboto-light.ttf');}
-@media (min-width:700px){ /*when the screen has a width greater than 700px*/
+@media (min-width:768px){ /*when the screen has a width greater than 700px*/
     .index-html{background-image:url('./index.html.background-landscape.jpg');}
 }
-@media (max-width:700px){ /*when the screen has a width less than 700px*/
+@media (max-width:768px){ /*when the screen has a width less than 700px*/
     .index-html{background-image:url('./index.html-background.portrait.jpg');}
 }
-%font{font-family:__local__roboto__light;}
-body{background-position:center;background-repeat:no-repeat;background-size:cover;width:100vw;height:100vh;margin:0px;padding:0px;@extend %font;overflow-x:hidden;}
+%bootstrap-font-override{font-family:__local__roboto__light !important;}
+body{background-position:center;background-repeat:no-repeat;background-size:cover;width:100vw;height:100vh;margin:0px;padding:0px;@extend %bootstrap-font-override;overflow-x:hidden;}
 body{
     p{margin:0px;padding:0px;color:$text-foreground-color;}
 }
-#page-title{width:100%;height:100%;margin:0px;padding:0px;font-size:30px;background-color:$image-cover-background-color;display:flex;align-items:center;justify-content:center;}
+#page-title{width:100%;height:100%;margin:0px;padding:0px;background-color:$image-cover-background-color;display:flex;align-items:center;justify-content:center;}
+#page-title{
+    p{font-size:30px;margin:30px;text-align:center;}
+}
+#header{background-color:$header-background-color;width:100%;height:auto;min-height:50px;position:fixed;top:0px;left:0px;margin:0px !important;}
+.on-top{z-index:2;}
+.navigate-button{height:auto;font-size:20px;text-align:center;padding:5px;color:$text-foreground-color;border-left:1px solid black;border-right:1px solid black;border-bottom:1px solid black;background-color:transparent;}
+.navigate-button:hover{color:$text-foreground-color-hover;text-decoration:none;background-color:$text-background-color-hover;}
