@@ -19,7 +19,7 @@ requirements:
     [ ] README.md should include a short descrption of the project (what is inside each file and any other important information)
 
 website:
-    a fake website about hiring a photographer that uses photos ive taken before to avoid copyright
+    a fake website about hiring a photographer that uses photos ive taken before
     bootstrap 4.3.1
 
 images that are mine:
