@@ -3,14 +3,14 @@ $text-foreground-color-hover:rgba(60, 60, 60, 1); /*the text foreground color fo
 $text-background-color:rgba(255, 255, 255, 1); /*the text background color*/
 $text-background-color-hover:rgba(255, 255, 255, 0.5); /*the text background color when its being hoevered over*/
 $image-cover-background-color:rgba(255, 255, 255, 0.60); /*the slightly transparent color that is used to make images less visible*/
-$min-screen-size: 1200px; /*the minimum size that the screen can stay at without scaling down (bootstrap "sm" size)*/
+$min-screen-size: 1200px; /*the minimum size that the screen can stay at without scaling down (bootstrap "lg" size (about a little bit larger than a normal 1080p phone screen))*/
 @font-face{font-family:__local__roboto__light;src:url('./roboto-light.ttf');} /*the custom roboto light font*/
-@media (min-width:$min-screen-size){ /*when the screen has a width greater than 700px*/
+@media (min-width:$min-screen-size){
     .index-html{background-image:url('./index.html.background.landscape.jpg');} /*change the background to the landscape photo*/
     #navigation-bar-mobile{display:none;}
 
 }
-@media (max-width:$min-screen-size){ /*when the screen has a width less than 700px*/
+@media (max-width:$min-screen-size){
     .index-html{background-image:url('./index.html-background.portrait.jpg');} /*change the background to the portait photo*/
     #navigation-bar{display:none;} /*hide the desktop navigation bar*/
     #navigation-bar-mobile{display:inline;position:absolute;top:10px;left:10px;} /*show the mobile navigation bar*/

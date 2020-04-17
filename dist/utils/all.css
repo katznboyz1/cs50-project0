@@ -3,13 +3,12 @@
 /*the text background color*/
 /*the text background color when its being hoevered over*/
 /*the slightly transparent color that is used to make images less visible*/
-/*the minimum size that the screen can stay at without scaling down (bootstrap "sm" size)*/
+/*the minimum size that the screen can stay at without scaling down (bootstrap "lg" size (about a little bit larger than a normal 1080p phone screen))*/
 @font-face {
   font-family: __local__roboto__light;
   src: url("./roboto-light.ttf"); }
 /*the custom roboto light font*/
 @media (min-width: 1200px) {
-  /*when the screen has a width greater than 700px*/
   .index-html {
     background-image: url("./index.html.background.landscape.jpg"); }
 
@@ -17,7 +16,6 @@
   #navigation-bar-mobile {
     display: none; } }
 @media (max-width: 1200px) {
-  /*when the screen has a width less than 700px*/
   .index-html {
     background-image: url("./index.html-background.portrait.jpg"); }
 
