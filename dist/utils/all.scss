@@ -7,6 +7,7 @@ $min-screen-size: 1200px; /*the minimum size that the screen can stay at without
 @font-face{font-family:__local__roboto__light;src:url('./roboto-light.ttf');} /*the custom roboto light font*/
 @media (min-width:$min-screen-size){
     #index-page-title-background-image{background-image:url('./index.html.background.landscape.jpg');} /*change the background to the landscape photo*/
+    #about-page-background-image{background-image:url('./about.html.background.landscape.jpg');}
     #navigation-bar-mobile{display:none;}
     #index-bottom-page-link-1{height:100%;width:50%;}
     #index-bottom-page-link-2{height:100%;width:50%;}
@@ -14,6 +15,7 @@ $min-screen-size: 1200px; /*the minimum size that the screen can stay at without
 }
 @media (max-width:$min-screen-size){
     #index-page-title-background-image{background-image:url('./index.html-background.portrait.jpg');} /*change the background to the portait photo*/
+    #about-page-background-image{background-image:url('./about.html.background.portait.jpg');}
     #navigation-bar{display:none;} /*hide the desktop navigation bar*/
     #navigation-bar-mobile{display:inline;} /*show the mobile navigation bar*/
     .navigate-button{border:1px solid transparent !important;} /*edit the styling of the buttons*/

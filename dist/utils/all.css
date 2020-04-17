@@ -13,6 +13,9 @@
     background-image: url("./index.html.background.landscape.jpg"); }
 
   /*change the background to the landscape photo*/
+  #about-page-background-image {
+    background-image: url("./about.html.background.landscape.jpg"); }
+
   #navigation-bar-mobile {
     display: none; }
 
@@ -28,6 +31,9 @@
     background-image: url("./index.html-background.portrait.jpg"); }
 
   /*change the background to the portait photo*/
+  #about-page-background-image {
+    background-image: url("./about.html.background.portait.jpg"); }
+
   #navigation-bar {
     display: none; }
 
