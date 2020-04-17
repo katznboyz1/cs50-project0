@@ -8,6 +8,8 @@ $min-screen-size: 1200px; /*the minimum size that the screen can stay at without
 @media (min-width:$min-screen-size){
     #index-page-title-background-image{background-image:url('./index.html.background.landscape.jpg');} /*change the background to the landscape photo*/
     #navigation-bar-mobile{display:none;}
+    #index-bottom-page-link-1{height:100%;width:50%;}
+    #index-bottom-page-link-2{height:100%;width:50%;}
 
 }
 @media (max-width:$min-screen-size){
@@ -15,18 +17,22 @@ $min-screen-size: 1200px; /*the minimum size that the screen can stay at without
     #navigation-bar{display:none;} /*hide the desktop navigation bar*/
     #navigation-bar-mobile{display:inline;} /*show the mobile navigation bar*/
     .navigate-button{border:1px solid transparent !important;} /*edit the styling of the buttons*/
-    #page-title{
+    .page-title{
         p{font-weight:bold;} /*make the page title font smaller*/
     }
+    #index-bottom-page-link-1{height:50%;width:100%;}
+    #index-bottom-page-link-2{height:50%;width:100%;}
+    #index-bottom-page-links-top-half{height:66% !important;}
+    .index-bottom-page-links-half-height{height:34% !important;}
 }
 %bootstrap-font-override{font-family:__local__roboto__light !important;} /*way to override the default bootstrap font*/
 body{width:100vw;height:100vh;margin:0px;padding:0px;@extend %bootstrap-font-override;overflow-x:hidden;}
 body{
     p{margin:0px;padding:0px;color:$text-foreground-color;}
 }
-#page-title{width:100%;height:100%;margin:0px;padding:0px;background-color:$image-cover-background-color;display:flex;align-items:center;justify-content:center;}
-#page-title{
-    p{font-size:30px;margin:30px;text-align:center;}
+.page-title{width:100%;height:100%;margin:0px;padding:0px;background-color:$image-cover-background-color;display:flex;align-items:center;justify-content:center;}
+.page-title{
+    p{font-size:30px;margin:30px;text-align:center;text-decoration:none;}
 }
 #navigation-bar-mobile-dropdown{background-color:transparent;border:none;margin:0px;padding:0px;}
 #navigation-bar-mobile-dropdown::after{display:none;} /*to disable the bootstrap triangle dropdown menu*/
@@ -35,6 +41,9 @@ body{
 #index-page-title-background-image{width:100%;height:100%;margin:0px;padding:0px;}
 #index-bottom-page-links{width:100%;height:100%;margin:0px;padding:0px;}
 #navigation-bar-mobile{position:fixed;top:10px;left:10px;}
+#index-bottom-page-link-1{background-image:url('./index.html.bottom.img.1.jpg');}
+#index-bottom-page-link-2{background-image:url('./index.html.bottom.img.2.jpg');}
+#index-bottom-page-link-3{background-image:url('./index.html.bottom.img.3.jpg');}
 .index-bottom-page-links-half-height{height:50%;width:100%;margin:0px;padding:0px;}
 .fullscreen-background-image{background-position:center;background-repeat:no-repeat;background-size:cover;}
 .on-top{z-index:2;}
