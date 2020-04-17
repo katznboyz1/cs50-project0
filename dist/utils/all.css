@@ -40,7 +40,7 @@
   #page-title {
     /*make the page title font smaller*/ }
     #page-title p {
-      font-size: 20px !important; } }
+      font-size: 25px !important; } }
 body {
   font-family: __local__roboto__light !important; }
 
@@ -115,5 +115,8 @@ body p {
   color: #3c3c3c;
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.5); }
+
+.dropdown-item {
+  font-size: 25px; }
 
 /*# sourceMappingURL=all.css.map */
