@@ -1,19 +1,27 @@
 /*the generic text foreground color*/
 /*the text foreground color for when its being hovered over*/
+/*the text background color*/
 /*the text background color when its being hoevered over*/
 /*the slightly transparent color that is used to make images less visible*/
-/*the background color for the page header*/
+/*the minimum size that the screen can stay at without scaling down*/
 @font-face {
   font-family: __local__roboto__light;
   src: url("./roboto-light.ttf"); }
-@media (min-width: 768px) {
+@media (min-width: 575px) {
   /*when the screen has a width greater than 700px*/
   .index-html {
     background-image: url("./index.html.background-landscape.jpg"); } }
-@media (max-width: 768px) {
+@media (max-width: 575px) {
   /*when the screen has a width less than 700px*/
   .index-html {
-    background-image: url("./index.html-background.portrait.jpg"); } }
+    background-image: url("./index.html-background.portrait.jpg"); }
+
+  #header {
+    background-color: transparent !important;
+    border-bottom: 1px solid black; }
+
+  .navigate-button {
+    border: 1px solid transparent !important; } }
 body {
   font-family: __local__roboto__light !important; }
 
@@ -48,7 +56,7 @@ body p {
   text-align: center; }
 
 #header {
-  background-color: gray;
+  background-color: white;
   width: 100%;
   height: auto;
   min-height: 50px;
@@ -66,8 +74,6 @@ body p {
   text-align: center;
   padding: 5px;
   color: black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
   border-bottom: 1px solid black;
   background-color: transparent; }
 
