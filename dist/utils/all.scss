@@ -1,7 +1,7 @@
-body{background-position:center;background-repeat:no-repeat;background-size:cover;width:100vw;height:100vh;}
-@media (min-width:700px){
-    body{background-image:url('./index.html.background-landscape.jpg');}
+body{background-position:center;background-repeat:no-repeat;background-size:cover;width:100vw;height:100vh;margin:0px;padding:0px;}
+@media (min-width:700px){ /*when the screen has a width greater than 700px*/
+    .index-html{background-image:url('./index.html.background-landscape.jpg');}
 }
-@media (max-width:700px){
-    body{background-image:url('./index.html-background.portrait.jpg');}
+@media (max-width:700px){ /*when the screen has a width less than 700px*/
+    .index-html{background-image:url('./index.html-background.portrait.jpg');}
 }
