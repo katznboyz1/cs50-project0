@@ -1,12 +1,6 @@
-body {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  margin: 0px;
-  padding: 0px; }
-
+@font-face {
+  font-family: __local__roboto__light;
+  src: url("./roboto-light.ttf"); }
 @media (min-width: 700px) {
   /*when the screen has a width greater than 700px*/
   .index-html {
@@ -15,5 +9,16 @@ body {
   /*when the screen has a width less than 700px*/
   .index-html {
     background-image: url("./index.html-background.portrait.jpg"); } }
+body {
+  font-family: __local__roboto__light; }
+
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px; }
 
 /*# sourceMappingURL=all.css.map */
