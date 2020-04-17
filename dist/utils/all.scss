@@ -6,21 +6,21 @@ $image-cover-background-color:rgba(255, 255, 255, 0.60); /*the slightly transpar
 $min-screen-size: 1200px; /*the minimum size that the screen can stay at without scaling down (bootstrap "lg" size (about a little bit larger than a normal 1080p phone screen))*/
 @font-face{font-family:__local__roboto__light;src:url('./roboto-light.ttf');} /*the custom roboto light font*/
 @media (min-width:$min-screen-size){
-    .index-html{background-image:url('./index.html.background.landscape.jpg');} /*change the background to the landscape photo*/
+    #index-page-title-background-image{background-image:url('./index.html.background.landscape.jpg');} /*change the background to the landscape photo*/
     #navigation-bar-mobile{display:none;}
 
 }
 @media (max-width:$min-screen-size){
-    .index-html{background-image:url('./index.html-background.portrait.jpg');} /*change the background to the portait photo*/
+    #index-page-title-background-image{background-image:url('./index.html-background.portrait.jpg');} /*change the background to the portait photo*/
     #navigation-bar{display:none;} /*hide the desktop navigation bar*/
-    #navigation-bar-mobile{display:inline;position:absolute;top:10px;left:10px;} /*show the mobile navigation bar*/
+    #navigation-bar-mobile{display:inline;} /*show the mobile navigation bar*/
     .navigate-button{border:1px solid transparent !important;} /*edit the styling of the buttons*/
     #page-title{
         p{font-weight:bold;} /*make the page title font smaller*/
     }
 }
 %bootstrap-font-override{font-family:__local__roboto__light !important;} /*way to override the default bootstrap font*/
-body{background-position:center;background-repeat:no-repeat;background-size:cover;width:100vw;height:100vh;margin:0px;padding:0px;@extend %bootstrap-font-override;overflow-x:hidden;}
+body{width:100vw;height:100vh;margin:0px;padding:0px;@extend %bootstrap-font-override;overflow-x:hidden;}
 body{
     p{margin:0px;padding:0px;color:$text-foreground-color;}
 }
@@ -32,6 +32,11 @@ body{
 #navigation-bar-mobile-dropdown::after{display:none;} /*to disable the bootstrap triangle dropdown menu*/
 #navigation-bar{background-color:$text-background-color;width:100%;height:auto;min-height:50px;position:fixed;top:0px;left:0px;margin:0px !important;}
 #navigation-bar-mobile-hamburger-button{width:40px;height:auto;}
+#index-page-title-background-image{width:100%;height:100%;margin:0px;padding:0px;}
+#index-bottom-page-links{width:100%;height:100%;margin:0px;padding:0px;}
+#navigation-bar-mobile{position:fixed;top:10px;left:10px;}
+.index-bottom-page-links-half-height{height:50%;width:100%;margin:0px;padding:0px;}
+.fullscreen-background-image{background-position:center;background-repeat:no-repeat;background-size:cover;}
 .on-top{z-index:2;}
 .navigate-button{height:auto;font-size:20px;text-align:center;padding:5px;color:$text-foreground-color;border-bottom:1px solid black;background-color:transparent;}
 .navigate-button:hover{color:$text-foreground-color-hover;text-decoration:none;background-color:$text-background-color-hover;}
