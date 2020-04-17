@@ -3,28 +3,36 @@
 /*the text background color*/
 /*the text background color when its being hoevered over*/
 /*the slightly transparent color that is used to make images less visible*/
-/*the minimum size that the screen can stay at without scaling down*/
+/*the minimum size that the screen can stay at without scaling down (bootstrap "sm" size)*/
 @font-face {
   font-family: __local__roboto__light;
   src: url("./roboto-light.ttf"); }
+/*the custom roboto light font*/
 @media (min-width: 575px) {
   /*when the screen has a width greater than 700px*/
   .index-html {
-    background-image: url("./index.html.background-landscape.jpg"); } }
+    background-image: url("./index.html.background.landscape.jpg"); }
+
+  /*change the background to the landscape photo*/ }
 @media (max-width: 575px) {
   /*when the screen has a width less than 700px*/
   .index-html {
     background-image: url("./index.html-background.portrait.jpg"); }
 
+  /*change the background to the portait photo*/
   #header {
     background-color: transparent !important;
     border-bottom: 1px solid black; }
 
+  /*edit the styling of the header*/
   .navigate-button {
-    border: 1px solid transparent !important; } }
+    border: 1px solid transparent !important; }
+
+  /*edit the styling of the buttons*/ }
 body {
   font-family: __local__roboto__light !important; }
 
+/*way to override the default bootstrap font*/
 body {
   background-position: center;
   background-repeat: no-repeat;
