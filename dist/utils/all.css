@@ -8,7 +8,7 @@
   font-family: __local__roboto__light;
   src: url("./roboto-light.ttf"); }
 /*the custom roboto light font*/
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   /*when the screen has a width greater than 700px*/
   .index-html {
     background-image: url("./index.html.background.landscape.jpg"); }
@@ -16,7 +16,7 @@
   /*change the background to the landscape photo*/
   #navigation-bar-mobile {
     display: none; } }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   /*when the screen has a width less than 700px*/
   .index-html {
     background-image: url("./index.html-background.portrait.jpg"); }
@@ -40,7 +40,7 @@
   #page-title {
     /*make the page title font smaller*/ }
     #page-title p {
-      font-size: 25px !important; } }
+      font-weight: bold; } }
 body {
   font-family: __local__roboto__light !important; }
 
@@ -117,6 +117,6 @@ body p {
   background-color: rgba(255, 255, 255, 0.5); }
 
 .dropdown-item {
-  font-size: 25px; }
+  font-size: 30px; }
 
 /*# sourceMappingURL=all.css.map */
