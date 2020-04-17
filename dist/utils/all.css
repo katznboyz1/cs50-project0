@@ -43,7 +43,8 @@
   .page-title {
     /*make the page title font smaller*/ }
     .page-title p {
-      font-weight: bold; }
+      font-weight: bold;
+      font-size: 50px !important; }
 
   #index-bottom-page-link-1 {
     height: 50%;
@@ -111,7 +112,7 @@ body p {
   margin: 0px !important; }
 
 #navigation-bar-mobile-hamburger-button {
-  width: 40px;
+  width: 80px;
   height: auto; }
 
 #index-page-title-background-image {
@@ -173,6 +174,6 @@ body p {
   background-color: rgba(255, 255, 255, 0.5); }
 
 .dropdown-item {
-  font-size: 30px; }
+  font-size: 50px; }
 
 /*# sourceMappingURL=all.css.map */
