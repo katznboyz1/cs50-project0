@@ -140,6 +140,10 @@ body p {
 #index-bottom-page-link-3 {
   background-image: url("./index.html.bottom.img.3.jpg"); }
 
+#index-bottom-page-links-top-half {
+  margin: 0px;
+  padding: 0px; }
+
 .index-bottom-page-links-half-height {
   height: 50%;
   width: 100%;
