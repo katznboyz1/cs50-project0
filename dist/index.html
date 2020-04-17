@@ -3,19 +3,33 @@
     <head>
         <title>Katznboyz Photography - Home</title>
         <link rel = 'stylesheet' href = './utils/all.css'/>
-        <link rel = 'stylesheet' href = './utils/bootstrap.css'/>
+        <link rel = 'stylesheet' href = './utils/bootstrap.min.css'/>
+        <script src = './utils/jquery.min.js'></script>
+        <script src = './utils/popper.min.js'></script>
+        <script src = './utils/bootstrap.min.js'></script>
         <link rel = 'icon' href = './utils/favicon.png'/>
         <meta charset = 'utf-8'/>
     </head>
     <body class = 'index-html'>
         <div id = 'page-title'>
-            <p>Hi, I'm Katznboyz. I photograph things for a living.</p>
+            <b><p>[SAMPLE index.html TEXT - DO NOT SUBMIT AS FINAL]</p></b>
         </div>
-        <div id = 'header' class = 'on-top row'>
-            <a href = 'index.html' class = 'navigate-button col-sm-3'>Home</a>
-            <a href = 'about.html' class = 'navigate-button col-sm-3'>About</a>
-            <a href = 'order.html' class = 'navigate-button col-sm-3'>Order</a>
+        <div id = 'navigation-bar' class = 'on-top row'>
+            <a href = 'index.html' class = 'navigate-button col-md-3'>Home</a>
+            <a href = 'about.html' class = 'navigate-button col-md-3'>About</a>
+            <a href = 'order.html' class = 'navigate-button col-md-3'>Order</a>
             <a href = 'gallery.html' class = 'navigate-button col-sm-3'>Gallery</a>
+        </div>
+        <div id = 'navigation-bar-mobile' class = 'dropdown on-top'>
+            <button class = 'dropdown-toggle' type = 'button' data-toggle = 'dropdown' href = '#' id = 'navigation-bar-mobile-dropdown' aria-haspopup = 'true' aria-expanded = 'false'>
+                <img src = './utils/hamburger-menu-icon.png' id = 'navigation-bar-mobile-hamburger-button'/>
+            </button>
+            <div class = 'dropdown-menu' aria-labelledby = 'navigation-bar-mobile-hamburger-button'>
+                <a class = 'dropdown-item' href = 'index.html'>Home</a>
+                <a class = 'dropdown-item' href = 'about.html'>About</a>
+                <a class = 'dropdown-item' href = 'order.html'>Order</a>
+                <a class = 'dropdown-item' href = 'gallery.html'>Gallery</a>
+            </div>
         </div>
     </body>
 </html>

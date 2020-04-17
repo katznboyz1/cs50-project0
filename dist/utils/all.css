@@ -8,27 +8,39 @@
   font-family: __local__roboto__light;
   src: url("./roboto-light.ttf"); }
 /*the custom roboto light font*/
-@media (min-width: 575px) {
+@media (min-width: 992px) {
   /*when the screen has a width greater than 700px*/
   .index-html {
     background-image: url("./index.html.background.landscape.jpg"); }
 
-  /*change the background to the landscape photo*/ }
-@media (max-width: 575px) {
+  /*change the background to the landscape photo*/
+  #navigation-bar-mobile {
+    display: none; } }
+@media (max-width: 992px) {
   /*when the screen has a width less than 700px*/
   .index-html {
     background-image: url("./index.html-background.portrait.jpg"); }
 
   /*change the background to the portait photo*/
-  #header {
-    background-color: transparent !important;
-    border-bottom: 1px solid black; }
+  #navigation-bar {
+    display: none; }
 
-  /*edit the styling of the header*/
+  /*hide the desktop navigation bar*/
+  #navigation-bar-mobile {
+    display: inline;
+    position: absolute;
+    top: 10px;
+    left: 10px; }
+
+  /*show the mobile navigation bar*/
   .navigate-button {
     border: 1px solid transparent !important; }
 
-  /*edit the styling of the buttons*/ }
+  /*edit the styling of the buttons*/
+  #page-title {
+    /*make the page title font smaller*/ }
+    #page-title p {
+      font-size: 20px !important; } }
 body {
   font-family: __local__roboto__light !important; }
 
@@ -63,7 +75,17 @@ body p {
   margin: 30px;
   text-align: center; }
 
-#header {
+#navigation-bar-mobile-dropdown {
+  background-color: transparent;
+  border: none;
+  margin: 0px;
+  padding: 0px; }
+
+#navigation-bar-mobile-dropdown::after {
+  display: none; }
+
+/*to disable the bootstrap triangle dropdown menu*/
+#navigation-bar {
   background-color: white;
   width: 100%;
   height: auto;
@@ -72,6 +94,10 @@ body p {
   top: 0px;
   left: 0px;
   margin: 0px !important; }
+
+#navigation-bar-mobile-hamburger-button {
+  width: 40px;
+  height: auto; }
 
 .on-top {
   z-index: 2; }

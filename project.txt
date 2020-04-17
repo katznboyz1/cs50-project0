@@ -20,7 +20,8 @@ requirements:
 
 website:
     a fake website about hiring a photographer that uses photos ive taken before
-    bootstrap 4.3.1
+    bootstrap 4.1.1
+    jquery 3.5.0 (its a requirement for the dropdown menus apparently)
 
 images that are mine:
     dist/utils/index.html.background.portrait.jpg
@@ -28,3 +29,4 @@ images that are mine:
 
 images that arent mine:
     dist/utils/favicon.png
+    dist/utils/hamburger-menu-icon.png
