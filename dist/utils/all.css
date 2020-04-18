@@ -66,10 +66,10 @@
   .index-bottom-page-links-half-height {
     height: 34% !important; }
 
-  #about-page-content p, #about-page-content li {
+  #page-content p, #page-content li {
     font-weight: bold;
     font-size: 30px; } }
-.page-title, #order-page-background-image, #order-page-content-area, #about-page-content, #index-page-title-background-image, #about-page-background-image, #index-bottom-page-links, #about-page-content-area {
+.page-title, #order-page-background-image, #order-page-content-area, #page-content, #index-page-title-background-image, #about-page-background-image, #index-bottom-page-links, #about-page-content-area {
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -109,7 +109,7 @@ body p {
 #order-page-content-area {
   background-color: rgba(255, 255, 255, 0.75); }
 
-#about-page-content {
+#page-content {
   width: calc(100% - 100px - 100px) !important;
   margin-left: 100px;
   font-size: 20px; }

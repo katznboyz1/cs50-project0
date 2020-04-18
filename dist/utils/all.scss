@@ -26,7 +26,7 @@ $min-screen-size: 1200px; /*the minimum size that the screen can stay at without
     #index-bottom-page-link-2{height:50%;width:100%;}
     #index-bottom-page-links-top-half{height:66% !important;}
     .index-bottom-page-links-half-height{height:34% !important;}
-    #about-page-content{
+    #page-content{
         p, li{font-weight:bold;font-size:30px;}
     }
 }
@@ -42,7 +42,7 @@ body{
 }
 #order-page-background-image{@extend %fullscreen;background-image:url('./order.html.background.all.jpg');}
 #order-page-content-area{@extend %fullscreen;background-color:$image-cover-background-color;}
-#about-page-content{@extend %fullscreen;width:calc(100% - 100px - 100px) !important;margin-left:100px;font-size:20px;}
+#page-content{@extend %fullscreen;width:calc(100% - 100px - 100px) !important;margin-left:100px;font-size:20px;}
 #navigation-bar-mobile-dropdown{background-color:transparent;border:none;margin:0px;padding:0px;}
 #navigation-bar-mobile-dropdown::after{display:none;} /*to disable the bootstrap triangle dropdown menu*/
 #navigation-bar{background-color:$text-background-color;width:100%;height:auto;min-height:50px;position:fixed;top:0px;left:0px;margin:0px !important;}
