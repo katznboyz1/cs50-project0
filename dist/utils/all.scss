@@ -40,6 +40,9 @@ body{
 .page-title{
     p{font-size:30px;margin:30px;text-align:center;text-decoration:none;}
 }
+#page-content{
+    tr, td, th{border:1px solid black;}
+}
 #order-page-background-image{@extend %fullscreen;background-image:url('./order.html.background.all.jpg');}
 #order-page-content-area{@extend %fullscreen;background-color:$image-cover-background-color;}
 #page-content{@extend %fullscreen;width:calc(100% - 100px - 100px) !important;margin-left:100px;font-size:20px;}

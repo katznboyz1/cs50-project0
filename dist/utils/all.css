@@ -103,6 +103,9 @@ body p {
   text-align: center;
   text-decoration: none; }
 
+#page-content tr, #page-content td, #page-content th {
+  border: 1px solid black; }
+
 #order-page-background-image {
   background-image: url("./order.html.background.all.jpg"); }
 
