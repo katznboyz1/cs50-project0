@@ -32,6 +32,9 @@
 ```
 
 **Library versions:**
+
 Bootstrap: 4.1.1
+
 JQuery: 3.4.1
+
 Popper: 1.16.0
